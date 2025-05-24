@@ -3,7 +3,7 @@
 / {
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Macro Pad";
+        display-name = "Biba84";
         transform = <&default_transform>;
         kscan = <&kscan0>;
 
