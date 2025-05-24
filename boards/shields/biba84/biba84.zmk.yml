@@ -2,7 +2,7 @@ file_format: "1"
 id: biba84
 name: biba84
 type: shield
-url: https://github.com/Haha1609/zmk-config-biba84
+url: https://github.com/Haha1609/fuzzy
 type: board
 arch: arm
 output:
