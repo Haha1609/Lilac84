@@ -8,7 +8,7 @@ layers:
   - F4
   - F5
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
   - F8
@@ -22,7 +22,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -35,8 +35,8 @@ layers:
   - E
   - R
   - T
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
+  - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
   - I
@@ -50,7 +50,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -64,7 +64,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -74,14 +74,14 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - '&mkp MB1'
   - '&mkp MB2'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
