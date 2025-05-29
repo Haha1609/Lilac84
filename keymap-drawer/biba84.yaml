@@ -120,7 +120,7 @@ layers:
   - E
   - R
   - T
-  - PLAY PAUSE
+  - $$mdi:bluetooth-off$$
   - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
@@ -159,8 +159,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - lower
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
