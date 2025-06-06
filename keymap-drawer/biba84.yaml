@@ -43,7 +43,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - MENU
+  - Ins
   - A
   - S
   - D
@@ -74,17 +74,17 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
+  - '&mkp MB2'
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - lower
-  - INS
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+C
+  - Ctl+V
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   lower:
   - $$mdi:keyboard-esc$$
   - F1
