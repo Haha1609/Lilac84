@@ -56,6 +56,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT   &kp Z     &kp X     &kp C    &kp V      &kp B      &kp DOWN          &mmv MOVE_DOWN   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
 &kp LCTRL   &kp LGUI  &kp LALT  &kp DEL  &kp ENTER  &kp SPACE  &mkp MB1          &mkp MB2         &kp SPACE  &kp ENTER  &mo 1      &kp LC(C)  &kp LC(V)  &kp LG(V)
             >;
+ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
 
         lower_layer {
@@ -78,6 +79,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT  &kp Z     &kp X     &kp C     &kp V     &kp B      &kp DOWN          &mmv MOVE_DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
 &kp LCTRL  &kp LGUI  &kp LALT  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER         &kp ENTER        &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RALT  &kp RCTRL
             >;
+ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
 
         adjust_layer {
@@ -89,6 +91,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT  &kp Z     &kp X     &kp C     &kp V     &kp B      &kp DOWN          &mmv MOVE_DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
 &kp LCTRL  &kp LGUI  &kp LALT  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER         &kp ENTER        &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RALT  &kp RCTRL
             >;
+ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
 
         function_layer {
@@ -100,6 +103,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT  &kp Z     &kp X     &kp C     &kp V     &kp B      &kp DOWN          &mmv MOVE_DOWN   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
 &kp LCTRL  &kp LGUI  &kp LALT  &mkp MB1  &mkp MB2  &kp SPACE  &kp ENTER         &kp ENTER        &kp SPACE  &mkp MB1  &mkp MB2   &kp DEL  &kp RALT  &kp RCTRL
             >;
+ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
     };
 };
