@@ -12,6 +12,7 @@ features:
   - keys
   - studio
   - pointer
+  - encoder
 siblings:
   - biba84_left
   - biba84_right
