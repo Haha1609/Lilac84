@@ -64,11 +64,7 @@
 		status = "disabled";
 	};
 
-    sensors {
-		compatible = "zmk,keymap-sensors";
-		sensors = <&left_encoder>;
-	};
-
+   
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
@@ -81,8 +77,9 @@
 
     sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&right_encoder>;
+		sensors = <&left_encoder <&right_encoder>;
 	};
+
 };
 
  &default_layout {
