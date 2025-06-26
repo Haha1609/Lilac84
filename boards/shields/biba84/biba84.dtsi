@@ -58,7 +58,7 @@
         compatible = "alps,ec11";
       		a-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH )>;
 	   	b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH )>;
-		steps = <15>;
+		steps = <24>;
       		status = "disabled";
 	};
 
@@ -67,7 +67,7 @@
 		compatible = "alps,ec11";
 		a-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH )>;
 	 	b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH )>;
-		steps = <15>;
+		steps = <24>;
        		status = "disabled";
 	};
 
