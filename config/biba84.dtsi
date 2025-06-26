@@ -45,26 +45,28 @@
     };
 
 	encoder_left: encoder_left {
-  	  compatible = "alps,ec11";
- 	   a-gpios = <&gpio1 1 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>; // GPIO 101
- 	   b-gpios = <&gpio0 31 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>; // GPIO 031
-  	  steps = <30>; // Adjust based on your encoder's detents
- 	   status = "okay";
+        compatible = "alps,ec11";
+      		a-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+	   	b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		steps = <30>;
+      		status = "disabled";
 	};
 
+   
 	encoder_right: encoder_right {
-  	  compatible = "alps,ec11";
- 	   a-gpios = <&gpio1 1 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>; // GPIO 101
- 	   b-gpios = <&gpio0 31 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>; // GPIO 031
-  	  steps = <30>; // Adjust based on your encoder's detents
- 	   status = "okay";
+		compatible = "alps,ec11";
+		a-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+	 	b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		steps = <30>;
+       		status = "disabled";
 	};
 
-	sensors: sensors {
+    sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder_left &encoder_right>;
         triggers-per-rotation = <15>;
 	};
+
 
 };
 
