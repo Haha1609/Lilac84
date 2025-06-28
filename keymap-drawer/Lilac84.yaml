@@ -35,7 +35,7 @@ layers:
   - E
   - R
   - T
-  - {t: PLAY PAUSE, h: '$$mdi:keyboard-return$$'}
+  - {t: KP ENTER, h: PLAY PAUSE}
   - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
