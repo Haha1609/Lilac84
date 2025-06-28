@@ -1,9 +1,0 @@
-# No whitespace after the comma or in your part name!
-config SHIELD_BIBA84_LEFT
-    def_bool $(shields_list_contains,biba84_left)
-
-# No whitespace after the comma or in your part name!
-config SHIELD_BIBA84_RIGHT
-    def_bool $(shields_list_contains,biba84_right)
-
-CONFIG_ZMK_SOFT_OFF=y

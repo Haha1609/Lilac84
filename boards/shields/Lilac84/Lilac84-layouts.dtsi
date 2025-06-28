@@ -3,7 +3,7 @@
 / {
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Biba84";
+        display-name = "Lilac84";
         transform = <&default_transform>;
         kscan = <&kscan0>;
 

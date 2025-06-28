@@ -1,8 +1,8 @@
 file_format: "1"
-id: biba84
-name: biba84
+id: Lilac84
+name: Lilac84
 type: shield
-url: https://github.com/Haha1609/fuzzy
+url: https://github.com/Haha1609/Lilac84
 type: board
 arch: arm
 output:
@@ -14,7 +14,7 @@ features:
   - pointer
   - encoder
 siblings:
-  - biba84_left
-  - biba84_right
+  - Lilac84_left
+  - Lilac84_right
 
   
