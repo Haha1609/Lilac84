@@ -78,9 +78,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
-  - '&mkp MB2'
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB2'
   - lower
   - Ctl+C
   - Ctl+V
