@@ -81,19 +81,19 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - '&mkp MB2'
-  - lower
+  - '1'
   - Ctl+C
   - Ctl+V
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  lower:
-  - $$mdi:keyboard-esc$$
+  '1':
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
   - F2
   - F3
   - F4
   - F5
   - $$mdi:arrow-up-bold$$
-  - $$mdi:pan-up$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
   - F8
@@ -101,41 +101,41 @@ layers:
   - F10
   - F11
   - {t: '-', s: _}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - {t: '1', h: toggle}
+  - {t: '2', h: toggle}
+  - {t: '3', h: toggle}
+  - {t: '4', h: toggle}
   - {t: '5', s: '%'}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:pan-left$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - $$mdi:bluetooth-off$$
-  - '&mkp MB1'
+  - {t: KP ENTER, h: PLAY PAUSE}
+  - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: +, h: '='}
+  - {t: Ins, h: PAUSE}
   - A
   - S
   - D
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - $$mdi:pan-right$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
@@ -149,7 +149,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-down-bold$$
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -159,19 +159,19 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {t: raise, h: toggle}
-  - Gui+$$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
-  - {t: default, type: held}
-  - Ins
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  raise:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB2'
+  - {t: default, h: toggle, type: held}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
+  '2':
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
   - F2
   - F3
@@ -186,7 +186,7 @@ layers:
   - F10
   - F11
   - {t: '-', s: _}
-  - {t: '1', s: '!'}
+  - {t: '1', h: toggle}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -198,22 +198,22 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - PLAY PAUSE
+  - {t: KP ENTER, h: PLAY PAUSE}
   - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: +, h: '='}
+  - {t: Ins, h: PAUSE}
   - A
   - S
   - D
@@ -240,23 +240,23 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - '&mkp MB1'
-  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  adjust:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB1'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB2'
+  - {t: default, h: toggle}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
+  '3':
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
   - F2
   - F3
@@ -271,7 +271,7 @@ layers:
   - F10
   - F11
   - {t: '-', s: _}
-  - {t: '1', s: '!'}
+  - {t: '1', h: toggle}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -283,22 +283,22 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - PLAY PAUSE
+  - {t: KP ENTER, h: PLAY PAUSE}
   - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: +, h: '='}
+  - {t: Ins, h: PAUSE}
   - A
   - S
   - D
@@ -325,23 +325,23 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - '&mkp MB1'
-  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  function:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB1'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB2'
+  - {t: default, h: toggle}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
+  '4':
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
   - F2
   - F3
@@ -356,7 +356,7 @@ layers:
   - F10
   - F11
   - {t: '-', s: _}
-  - {t: '1', s: '!'}
+  - {t: '1', h: toggle}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -368,22 +368,22 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - PLAY PAUSE
+  - {t: KP ENTER, h: PLAY PAUSE}
   - $$mdi:mouse-scroll-wheel$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: +, h: '='}
+  - {t: Ins, h: PAUSE}
   - A
   - S
   - D
@@ -410,18 +410,18 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: KP ENTER, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - '&mkp MB1'
-  - '&mkp MB2'
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB1'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - '&mkp MB2'
+  - {t: default, h: toggle}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
