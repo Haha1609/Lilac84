@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: Lilac84}
 layers:
   default:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
   - F2
   - F3
@@ -42,8 +42,8 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
-  - Ins
+  - {t: +, h: '='}
+  - {t: Ins, h: PAUSE}
   - A
   - S
   - D
