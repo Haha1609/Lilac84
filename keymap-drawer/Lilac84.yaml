@@ -99,7 +99,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - BT CLR ALL
   - {t: '-', s: _}
   - {t: '1', h: toggle}
   - {t: '2', h: toggle}
