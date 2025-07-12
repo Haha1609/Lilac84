@@ -14,7 +14,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: F11, h: F12}
   - {t: '-', s: _}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -43,7 +43,7 @@ layers:
   - O
   - P
   - {t: +, h: '='}
-  - {t: Ins, h: PAUSE}
+  - {t: Ins, h: PAUSE BREAK}
   - A
   - S
   - D
@@ -82,9 +82,9 @@ layers:
   - $$mdi:keyboard-space$$
   - '&mkp MB2'
   - '1'
-  - Ctl+C
-  - Ctl+V
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ctl+C, h: Ctl+X}
+  - {t: Ctl+V, h: V}
+  - {t: Ctl++, h: Ctl+-}
   '1':
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-caps$$'}
   - F1
@@ -213,7 +213,7 @@ layers:
   - O
   - P
   - {t: +, h: '='}
-  - {t: Ins, h: PAUSE}
+  - {t: Ins, h: PAUSE BREAK}
   - A
   - S
   - D
@@ -298,7 +298,7 @@ layers:
   - O
   - P
   - {t: +, h: '='}
-  - {t: Ins, h: PAUSE}
+  - {t: Ins, h: PAUSE BREAK}
   - A
   - S
   - D
@@ -383,7 +383,7 @@ layers:
   - O
   - P
   - {t: +, h: '='}
-  - {t: Ins, h: PAUSE}
+  - {t: Ins, h: PAUSE BREAK}
   - A
   - S
   - D
